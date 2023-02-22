@@ -1,5 +1,3 @@
-<a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fublabs%2Fnetlify-cms-oauth&env=OAUTH_GITHUB_CLIENT_ID,OAUTH_GITHUB_CLIENT_SECRET,OAUTH_GITLAB_CLIENT_ID,OAUTH_GITLAB_CLIENT_SECRET&envDescription=Create%20a%20OAuth%20App%20on%20Github%20and%20Gitlab%20and%20set%20variables%20information%20&envLink=https%3A%2F%2Fgithub.com%2Fublabs%2Fnetlify-cms-oauth%23deploy&project-name=netlify-cms-oauth&repo-name=netlify-cms-oauth&demo-title=Netlify%20CMS%20OAuth&demo-description=Use%20Netlify%20CMS%20for%20sites%20hosted%20on%20Vercel.&demo-url=https%3A%2F%2Fnetlify-cms-adrianub.vercel.app"><img height="100" src="https://vercel.com/button" alt="Deploy with Vercel" align="right"></a>
-
 <div align="center">
     <h3>
         Netlify CMS on Vercel
@@ -41,13 +39,13 @@ backend:
     `https://netlify-cms.adrianub.vercel.app/callback`
 - Set environment variables on `Vercel`
 
-    ```shell
-    OAUTH_GITHUB_CLIENT_ID=<you-client-id>
-    OAUTH_GITHUB_CLIENT_SECRET=<you-client-secret>
+  ```shell
+  OAUTH_GITHUB_CLIENT_ID=<you-client-id>
+  OAUTH_GITHUB_CLIENT_SECRET=<you-client-secret>
 
-    OAUTH_GITLAB_CLIENT_ID=<you-client-id>
-    OAUTH_GITLAB_CLIENT_SECRET=<you-client-secret>
-    ```
+  OAUTH_GITLAB_CLIENT_ID=<you-client-id>
+  OAUTH_GITLAB_CLIENT_SECRET=<you-client-secret>
+  ```
 
 ## Authors
 
