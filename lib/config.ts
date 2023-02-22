@@ -28,6 +28,7 @@ const auth: Record<
 };
 
 function getEnv(key: string) {
+  console.log(process.env, process.env.OAUTH_GITHUB_CLIENT_ID);
   if (!process.env[key]) throw new Error("Missing env variable");
   return process.env[key] as string;
 }
